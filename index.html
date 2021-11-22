@@ -1,0 +1,234 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Edward Jones | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Edward jones</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+</nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="/image.jpg"
+        alt="edwin jones"
+        width="200"
+        height="300"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+        Am an IT expert majoring my skills on cyber security and networking.I usually do programming just for fun,majoring my programming experience on Html and css
+        </p>
+      </div>
+    </section>
+    <!-- More about --> 
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        I graduated at Zetech university with a diploma in IT,i got my first job as IT consultant at a government school where i furthered my studies and did my degree at Kenyatta university.
+      </p>
+      <p>
+        currently am an IT officer  at a government office here in kenya,am currently dealing with Cyber security issues presented day to day.
+      </p>
+      <p>
+        Am planning to futher my  studies because i would like to have my own programming firm one day,the aim of this firm is to help young people become conversant with the change in technology.
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="/html.png"
+            alt=""
+            width="200"
+            height="300"
+          />
+          <img
+          src="/css.png"
+            alt=""
+            width="200"
+            height="300"
+          />
+          <img
+            src="boottrap.png"
+            alt=""
+            width="200"
+            height="300"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="expence tracker.jpeg"
+            alt="expense-tracker"
+            width="200"
+            height="300"
+          />
+          <h3 class="project-title">Expense Tracker</h3>
+          <p class="project-details">
+            expense tracker is a software or application that helps to keep an accurate record of money inflow and outflow.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="/netflic.jpeg"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Netflix Clone</h3>
+          <p class="project-details">
+            playnow is a netflix clone script that will help you get started with your own video streaming platform
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="/greeny.jpeg"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Greeny Earth</h3>
+          <p class="project-details">
+        first used by the ancient roman,green earth has been identified on wall painting
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xoqygbay" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="#" target="_blank"
+        ><img
+          src="/twitter.png"
+          alt=""
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="/instagram.jpeg"
+          alt=""
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="/linkend.jpeg"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img src="/github.png"
+         alt="Github"
+         loading="lazy"
+          class="socicon"
+      /></a>
+
+    <!-- Footer section -->
+ <footer>
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://mobile.twitter.com/M82224740Edward" target="_blank"
+          >edwin jones (Eddie)</a
+        >
+      </p>
+</footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
